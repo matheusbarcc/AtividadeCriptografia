@@ -1,9 +1,8 @@
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
-import java.util.Base64;
 
-public class SymetricAES {
+public class SymmetricAES {
 
     public static void execute(String author, String message) throws Exception {
         KeyGenerator keyGen = KeyGenerator.getInstance("AES");

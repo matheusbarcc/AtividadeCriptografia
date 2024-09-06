@@ -7,7 +7,7 @@ public class Main {
         System.out.println("");
 
         System.out.println("Criptografia Simetrica (AES):");
-        SymetricAES.execute("Wallace", "Bom dia Arthur, tudo certo?");
-        SymetricAES.execute("Arthur", "Fala Wallace!");
+        SymmetricAES.execute("Wallace", "Bom dia Arthur, tudo certo?");
+        SymmetricAES.execute("Arthur", "Fala Wallace!");
     }
 }
